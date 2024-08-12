@@ -1,0 +1,17 @@
+### create a team
+POST http://localhost:3000/team/create
+Content-Type: application/json
+
+{
+  "name": "Warriors",
+  "city": "San Francisco"
+}
+
+### Create another Team
+POST http://localhost:3000/team/create
+Content-Type: application/json
+
+{
+  "name": "Lakers",
+  "city": "Los Angeles"
+}
